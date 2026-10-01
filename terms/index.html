@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>Terms of Service | AnchorForged</title>
+<meta name="description" content="Terms of Service for AnchorForged websites, ApplyOptics, and Chiefly.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AnchorForged">
+<meta property="og:url" content="https://anchorforged.com/terms">
+<meta property="og:title" content="Terms of Service | AnchorForged">
+<meta property="og:description" content="Terms of Service for AnchorForged websites, ApplyOptics, and Chiefly.">
+<meta property="og:image" content="https://anchorforged.com/brand/af-logo-stacked.png">
+<link rel="canonical" href="https://anchorforged.com/terms">
+<link rel="icon" type="image/png" sizes="32x32" href="/brand/favicon-32.png">
+<link rel="apple-touch-icon" href="/brand/apple-touch-icon.png">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --orange: #F05A22;
+  --orange-dim: rgba(240,90,34,0.7);
+  --orange-glow: rgba(240,90,34,0.15);
+  --blue-deep: #0a1f44;
+  --blue-mid: #0f274f;
+  --blue-steel: #1e3f66;
+  --steel: #8A97A6;
+  --light-steel: #c8d4e0;
+  --white: #ffffff;
+  --charcoal: #111820;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{
+  font-family:'Source Sans 3',sans-serif;
+  background:var(--blue-deep);
+  color:var(--white);
+  overflow-x:hidden;
+  line-height:1.65;
+}
+nav{
+  position:fixed;top:0;left:0;right:0;z-index:1000;
+  background:rgba(10,31,68,0.92);
+  backdrop-filter:blur(12px);
+  border-bottom:1px solid rgba(240,90,34,0.3);
+  padding:10px 2.5rem;
+  display:flex;align-items:center;justify-content:space-between;
+  height:80px;
+}
+.nav-brand{display:flex;align-items:center;gap:14px;text-decoration:none;}
+.nav-name-block{display:flex;flex-direction:column;}
+.nav-name{font-family:'Oswald',sans-serif;font-size:23px;font-weight:700;letter-spacing:0.14em;color:var(--white);}
+.nav-sub{font-family:'Oswald',sans-serif;font-size:11px;font-weight:400;letter-spacing:0.26em;color:var(--orange);}
+.nav-links{display:flex;align-items:center;gap:2.2rem;list-style:none;}
+.nav-links a{font-size:12px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--light-steel);text-decoration:none;transition:color 0.2s;}
+.nav-links a:hover{color:var(--orange);}
+.nav-cta{background:var(--orange)!important;color:var(--white)!important;padding:9px 22px;border-radius:2px;}
+.nav-cta:hover{background:#c44518!important;}
+
+.legal-hero{
+  padding:140px 2rem 3rem;
+  max-width:860px;margin:0 auto;
+  border-bottom:1px solid rgba(240,90,34,0.25);
+}
+.section-label{
+  font-size:12px;font-weight:600;letter-spacing:0.22em;text-transform:uppercase;
+  color:var(--orange);margin-bottom:0.8rem;
+}
+.legal-hero h1{
+  font-family:'Oswald',sans-serif;
+  font-size:clamp(32px,5vw,48px);
+  font-weight:700;letter-spacing:0.02em;
+  margin-bottom:0.8rem;
+}
+.legal-meta{font-size:14px;color:var(--steel);}
+.legal-meta a{color:var(--orange);text-decoration:none;}
+.legal-meta a:hover{text-decoration:underline;}
+
+.legal-body{
+  max-width:860px;margin:0 auto;
+  padding:2.5rem 2rem 5rem;
+}
+.legal-body h2{
+  font-family:'Oswald',sans-serif;
+  font-size:22px;font-weight:600;letter-spacing:0.04em;
+  color:var(--white);margin:2.4rem 0 0.9rem;
+  padding-top:0.4rem;
+  border-top:1px solid rgba(138,151,166,0.15);
+}
+.legal-body h2:first-of-type{border-top:none;margin-top:0;padding-top:0;}
+.legal-body h3{
+  font-family:'Oswald',sans-serif;
+  font-size:16px;font-weight:600;letter-spacing:0.06em;
+  color:var(--light-steel);margin:1.4rem 0 0.5rem;text-transform:uppercase;
+}
+.legal-body p,.legal-body li{font-size:16px;color:var(--light-steel);margin-bottom:0.85rem;}
+.legal-body ul{padding-left:1.35rem;margin-bottom:1rem;}
+.legal-body li{margin-bottom:0.45rem;}
+.legal-body a{color:var(--orange);text-decoration:none;}
+.legal-body a:hover{text-decoration:underline;}
+.legal-body strong{color:var(--white);font-weight:600;}
+.callout{
+  background:rgba(240,90,34,0.08);
+  border-left:3px solid var(--orange);
+  padding:1rem 1.2rem;margin:1.2rem 0 1.5rem;
+  border-radius:0 2px 2px 0;
+}
+.callout p{margin-bottom:0.4rem;}
+.callout p:last-child{margin-bottom:0;}
+
+footer{
+  border-top:1px solid rgba(240,90,34,0.25);
+  background:rgba(8,18,40,0.95);
+  padding:2rem 2.5rem 1.5rem;
+}
+.footer-bottom{
+  max-width:1200px;margin:0 auto;
+  display:flex;justify-content:space-between;align-items:center;
+  font-size:11px;color:var(--steel);flex-wrap:wrap;gap:0.8rem;
+}
+.footer-bottom a{color:var(--steel);text-decoration:none;}
+.footer-bottom a:hover{color:var(--orange);}
+@media(max-width:700px){
+  nav{padding:10px 1.2rem;}
+  .nav-sub,.nav-links li:not(:last-child){display:none;}
+  .nav-name{font-size:18px;}
+}
+</style>
+</head>
+<body>
+<nav>
+  <a href="/" class="nav-brand">
+    <img src="/brand/af-logo-icon.png" width="60" height="60" alt="AnchorForged" style="width:60px;height:60px;object-fit:contain;flex-shrink:0;">
+    <div class="nav-name-block">
+      <span class="nav-name">ANCHORFORGED</span>
+      <span class="nav-sub">Technology &amp; Leadership</span>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="/">Home</a></li>
+    <li><a href="/privacy">Privacy</a></li>
+    <li><a href="mailto:tim@anchorforged.com" class="nav-cta">Contact</a></li>
+  </ul>
+</nav>
+
+<header class="legal-hero">
+  <div class="section-label">Legal</div>
+  <h1>Terms of Service</h1>
+  <p class="legal-meta">
+    Effective date: September 21, 2026 (CT)<br>
+    AnchorForged &nbsp;·&nbsp; Contact: <a href="mailto:tim@anchorforged.com">tim@anchorforged.com</a>
+  </p>
+</header>
+
+<main class="legal-body">
+  <h2>1. Agreement</h2>
+  <p>These Terms of Service (“Terms”) govern your access to and use of websites, products, and services operated by <strong>AnchorForged</strong> (“AnchorForged,” “we,” “us,” or “our”), including:</p>
+  <ul>
+    <li><strong>Websites:</strong> anchorforged.com, applyoptics.com, and related pages or demos we operate;</li>
+    <li><strong>ApplyOptics:</strong> our B2B resume transcription and candidate-confirmation service;</li>
+    <li><strong>Chiefly:</strong> our iOS leadership application (including App Store distribution); and</li>
+    <li>Related advisory or consulting engagements described on our sites (subject to any separate written agreement).</li>
+  </ul>
+  <p>By accessing or using our Sites or Services, you agree to these Terms. If you do not agree, do not use them. If you use a Service on behalf of an organization, you represent that you have authority to bind that organization, and “you” includes that organization.</p>
+
+  <h2>2. Who we are</h2>
+  <p>AnchorForged is a U.S. technology company (Tulsa, Oklahoma area). For legal notices and privacy requests, contact <a href="mailto:tim@anchorforged.com">tim@anchorforged.com</a>. General inquiries may also use <a href="mailto:info@anchorforged.com">info@anchorforged.com</a> or the contact form on our site.</p>
+  <p>We do not invent or publish EIN, street address, or registration numbers on this page beyond what we publicly state elsewhere. Company identity for these Terms is <strong>AnchorForged</strong>, reachable at the email above.</p>
+
+  <h2>3. Eligibility and accounts</h2>
+  <p>You must be able to form a binding contract under applicable law to use paid or account-based Services. Organizational customers are responsible for their users’ compliance with these Terms and for safeguarding credentials. You must provide accurate information and promptly update it.</p>
+
+  <h2>4. ApplyOptics</h2>
+  <h3>4.1 What ApplyOptics does</h3>
+  <p>ApplyOptics helps turn difficult resumes into structured data that candidates can review before information moves into a hiring workflow. Our product positioning is deliberate: <strong>We transcribe, not score!</strong></p>
+  <div class="callout">
+    <p><strong>Honesty lock:</strong> ApplyOptics does <em>not</em> score, rank, rate, or recommend candidates. Confirmed fields are intended to help humans decide — we do not claim automated hiring decisions, ranking models, or employment recommendations.</p>
+  </div>
+  <h3>4.2 Demo and ATS integrations</h3>
+  <ul>
+    <li>The public demo at applyoptics.com/demo (and similar demos) is <strong>simulated</strong> for evaluation. Demo submits are not production hiring-system writes.</li>
+    <li>Any ATS or downstream write integrations are design-partner / credentialed paths. Without valid credentials and configuration, ATS writes <strong>fail closed</strong> (they do not silently succeed).</li>
+    <li>We do not claim universal ATS compatibility.</li>
+  </ul>
+  <h3>4.3 Customer responsibilities</h3>
+  <p>Customers are responsible for: lawful collection and use of candidate and resume data; obtaining any consents required in their jurisdictions; configuring integrations correctly; and making all employment or hiring decisions. AnchorForged is a technology provider, not your HR department, recruiter of record, or employment counsel.</p>
+
+  <h2>5. Chiefly</h2>
+  <p>Chiefly is an iOS app offering AI-assisted leadership support (for example coaching prompts, reflection, and meeting prep features as described in the App Store listing). Chiefly is a productivity / coaching tool — <strong>not</strong> medical, legal, financial, or employment advice, and not a substitute for licensed professional counsel.</p>
+  <p>App Store purchases, subscriptions, and refunds are governed by Apple’s terms in addition to these Terms. Features may change; we may update the app without notice as reasonably needed for security, compliance, or product improvement.</p>
+
+  <h2>6. Websites and content</h2>
+  <p>Site content (copy, branding, demos, and materials) is provided for general information. Marketing and early pricing teasers are indicative unless a signed order or plan confirmation says otherwise. You may not scrape, copy, reverse engineer, or misuse our Sites or Services except as expressly allowed by law or written permission.</p>
+
+  <h2>7. Acceptable use</h2>
+  <p>You agree not to:</p>
+  <ul>
+    <li>Use the Services for unlawful, discriminatory, deceptive, or abusive purposes;</li>
+    <li>Upload malware, or attempt to probe, disrupt, or bypass security or rate limits;</li>
+    <li>Submit content you do not have rights to process, or that violates others’ privacy or IP;</li>
+    <li>Misrepresent ApplyOptics output as scoring, ranking, or an automated hiring decision;</li>
+    <li>Resell or white-label the Services without our written consent;</li>
+    <li>Use automated means to overwhelm demos, forms, or APIs (except ordinary use of published interfaces).</li>
+  </ul>
+  <p>We may suspend or terminate access for violations, risk to candidates or systems, nonpayment, or legal requirements.</p>
+
+  <h2>8. Fees (when applicable)</h2>
+  <p>Paid plans (for example ApplyOptics subscription tiers) are subject to the pricing, usage metrics, and billing terms presented at purchase or in an order form. Early or “indicative” website pricing is not a binding quote. Taxes may apply. Unless stated otherwise in writing, fees are non-refundable except where required by law or by Apple for App Store transactions.</p>
+
+  <h2>9. Intellectual property</h2>
+  <p>AnchorForged, ApplyOptics, Chiefly, and related marks, software, and content remain our property (or our licensors’). You receive a limited, non-exclusive, non-transferable right to use the Services as offered. Customer content (for example resumes you submit) remains yours or your licensors’; you grant us a limited license to process that content solely to provide and improve the Services as described in our Privacy Policy.</p>
+
+  <h2>10. Third-party services</h2>
+  <p>We use infrastructure and processors such as hosting/CDN (for example Cloudflare), AI model providers (for example Anthropic for applicable transcription / coaching features), form processors, and App Store distribution. Marketing channels may include Meta, TikTok, and LinkedIn. Third-party terms and privacy practices apply to their services. We are not responsible for third-party sites linked from ours.</p>
+
+  <h2>11. Disclaimers</h2>
+  <div class="callout">
+    <p><strong>Not legal advice. Not employment advice.</strong> Nothing on our Sites or in our Services constitutes legal, employment, HR compliance, medical, or financial advice. Hiring, leadership, and compliance decisions remain yours.</p>
+  </div>
+  <p>THE SITES AND SERVICES ARE PROVIDED “AS IS” AND “AS AVAILABLE.” TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. We do not warrant uninterrupted or error-free operation, perfect transcription accuracy, or that demos reflect production behavior in every respect.</p>
+
+  <h2>12. Limitation of liability</h2>
+  <p>TO THE MAXIMUM EXTENT PERMITTED BY LAW, ANCHORFORGED AND ITS OWNERS, OFFICERS, AND CONTRACTORS WILL NOT BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR FOR LOST PROFITS, LOST DATA, OR BUSINESS INTERRUPTION, ARISING FROM YOUR USE OF THE SITES OR SERVICES.</p>
+  <p>OUR TOTAL LIABILITY FOR ANY CLAIM ARISING OUT OF OR RELATING TO THE SITES OR SERVICES WILL NOT EXCEED THE GREATER OF (A) AMOUNTS YOU PAID US FOR THE SERVICE GIVING RISE TO THE CLAIM IN THE TWELVE (12) MONTHS BEFORE THE CLAIM, OR (B) ONE HUNDRED U.S. DOLLARS (US $100) IF YOU HAVE NOT PAID US.</p>
+  <p>Some jurisdictions do not allow certain limitations; in those cases, our liability is limited to the fullest extent permitted.</p>
+
+  <h2>13. Indemnity</h2>
+  <p>You will defend and indemnify AnchorForged against claims arising from your content, your hiring or employment decisions, your misuse of the Services, or your violation of these Terms or applicable law, except to the extent caused by our willful misconduct.</p>
+
+  <h2>14. Privacy</h2>
+  <p>Our collection and use of personal information is described in our <a href="/privacy">Privacy Policy</a>. By using the Services, you acknowledge that policy.</p>
+
+  <h2>15. Governing law and disputes</h2>
+  <p>These Terms are governed by the laws of the <strong>State of Oklahoma</strong> and applicable United States federal law, without regard to conflict-of-law rules. Exclusive venue for disputes that proceed in court will be state or federal courts located in Oklahoma, unless mandatory consumer protections require otherwise. You and AnchorForged consent to personal jurisdiction there.</p>
+  <p><em>Placeholder note:</em> If we later adopt a binding arbitration or class-action waiver rider, we will update these Terms and note the effective date. Until then, disputes are handled under the governing law and venue above.</p>
+
+  <h2>16. Changes</h2>
+  <p>We may update these Terms from time to time. The “Effective date” above will change when we do. Continued use after posting constitutes acceptance of the updated Terms for subsequent use. Material changes to paid Services may also be communicated by email or in-product notice when practicable.</p>
+
+  <h2>17. Miscellaneous</h2>
+  <p>If any provision is unenforceable, the remainder stays in effect. Failure to enforce a provision is not a waiver. These Terms (plus any order form or App Store terms that expressly apply) are the entire agreement regarding the Sites and Services and supersede conflicting prior understandings on the same subject. You may not assign these Terms without our consent; we may assign them in connection with a reorganization or sale of assets.</p>
+
+  <h2>18. Contact</h2>
+  <p>Questions about these Terms: <a href="mailto:tim@anchorforged.com">tim@anchorforged.com</a><br>
+  AnchorForged — Tulsa, Oklahoma area, United States</p>
+</main>
+
+<footer>
+  <div class="footer-bottom">
+    <div>&copy; 2026 AnchorForged. All rights reserved. | <a href="/">Home</a> · <a href="/privacy">Privacy</a> · <a href="/terms">Terms</a></div>
+    <div style="color:var(--orange);font-size:11px;">anchorforged.com</div>
+  </div>
+</footer>
+</body>
+</html>
