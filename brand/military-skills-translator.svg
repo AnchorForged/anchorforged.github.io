@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="400" viewBox="0 0 720 400" role="img" aria-labelledby="ao-mil-title ao-mil-desc">
+  <title id="ao-mil-title">Military skills translator</title>
+  <desc id="ao-mil-desc">A job code such as 25B is drafted as a civilian title and example resume bullets. Drafting examples. We transcribe, not score!</desc>
+  <rect width="720" height="400" rx="22" fill="#07162f"/>
+  <rect x="1" y="1" width="718" height="398" rx="21" fill="none" stroke="#1e3a5f"/>
+
+  <g font-family="Inter, IBM Plex Sans, Helvetica, Arial, sans-serif">
+    <rect x="24" y="24" width="248" height="292" rx="16" fill="#0a1f44" stroke="#1e3a5f"/>
+    <text x="44" y="56" font-size="13" font-weight="700" letter-spacing="2.2" fill="#8A97A6">JOB CODE</text>
+    <rect x="44" y="66" width="36" height="3" rx="1.5" fill="#F05A22"/>
+    <text x="44" y="168" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="72" font-weight="700" fill="#ffffff">25B</text>
+    <text x="44" y="198" font-size="14" font-weight="600" fill="#8A97A6">MOS / rating / AFSC</text>
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" font-weight="700">
+      <rect x="44" y="222" width="52" height="28" rx="14" fill="#07162f" stroke="#F05A22"/>
+      <text x="70" y="241" text-anchor="middle" fill="#F05A22">AWO</text>
+      <rect x="104" y="222" width="64" height="28" rx="14" fill="#07162f" stroke="#334155"/>
+      <text x="136" y="241" text-anchor="middle" fill="#e2e8f0">0311</text>
+      <rect x="176" y="222" width="44" height="28" rx="14" fill="#07162f" stroke="#334155"/>
+      <text x="198" y="241" text-anchor="middle" fill="#e2e8f0">IT</text>
+    </g>
+    <text x="44" y="284" font-size="13" font-weight="600" fill="#cbd5e1">One code in.</text>
+    <text x="44" y="304" font-size="13" font-weight="600" fill="#8A97A6">Civilian wording out.</text>
+  </g>
+
+  <g>
+    <line x1="288" y1="158" x2="338" y2="158" stroke="#F05A22" stroke-width="3" stroke-linecap="round"/>
+    <polygon points="334,150 352,158 334,166" fill="#F05A22"/>
+    <text x="320" y="188" text-anchor="middle" font-family="Inter, IBM Plex Sans, Helvetica, Arial, sans-serif" font-size="11" font-weight="700" letter-spacing="1.4" fill="#F05A22">DRAFT</text>
+  </g>
+
+  <g font-family="Inter, IBM Plex Sans, Helvetica, Arial, sans-serif">
+    <rect x="368" y="24" width="328" height="292" rx="16" fill="#f8fafc"/>
+    <text x="388" y="56" font-size="13" font-weight="700" letter-spacing="2.2" fill="#8A97A6">CIVILIAN DRAFT</text>
+    <rect x="388" y="66" width="36" height="3" rx="1.5" fill="#F05A22"/>
+    <text x="388" y="112" font-size="28" font-weight="800" fill="#0a1f44">IT Specialist</text>
+    <text x="388" y="136" font-size="13" font-weight="600" fill="#64748b">Example resume bullets</text>
+
+    <circle cx="398" cy="168" r="4" fill="#F05A22"/>
+    <text x="414" y="173" font-size="15" font-weight="600" fill="#0a1f44">Windows &amp; Linux user support</text>
+    <circle cx="398" cy="202" r="4" fill="#F05A22"/>
+    <text x="414" y="207" font-size="15" font-weight="600" fill="#0a1f44">Networks and user accounts</text>
+    <circle cx="398" cy="236" r="4" fill="#F05A22"/>
+    <text x="414" y="241" font-size="15" font-weight="600" fill="#0a1f44">Asset tracking through turn-in</text>
+
+    <rect x="388" y="266" width="288" height="32" rx="8" fill="#fff1e9"/>
+    <text x="532" y="287" text-anchor="middle" font-size="13" font-weight="700" fill="#F05A22">Candidate still confirms each field</text>
+  </g>
+
+  <text x="360" y="362" text-anchor="middle" font-family="Inter, IBM Plex Sans, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#F05A22">Drafting examples</text>
+  <text x="360" y="384" text-anchor="middle" font-family="Inter, IBM Plex Sans, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#8A97A6">We transcribe, not score!</text>
+</svg>
